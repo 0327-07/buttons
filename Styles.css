@@ -1,0 +1,22 @@
+
+.numberpad { 
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
+}
+
+button {
+    height: 300px;
+    border-radius: 10px;
+    border: 1px solid blue;
+    background-color: transparent;
+    font-size: 2rem;
+    color:rgb(27, 2, 2);
+    box-shadow: inset 0 0 0 1px gray, inset 0 1px 0 0 gray, inset 0 -1px 0 0 gray, 0 1px 0 0 gray;
+    text-shadow: 0 1px gray;
+  }
+  
+  button:hover {  background-color: #1b0202;
+    color: white;
+    }
